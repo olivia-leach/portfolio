@@ -1,0 +1,25 @@
+.media-body p {
+  opacity: 1;
+}
+
+.tech-icon {
+  font-size: 2em;
+  position: relative;
+  top: -5px;
+}
+
+.media-heading {
+  padding-left: 10px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  /*background-color: black;
+  color: white;*/
+}
+
+#map {
+  height: 50%;
+  margin-top: -5px;
+  margin-bottom: -20px;
+}

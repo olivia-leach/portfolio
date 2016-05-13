@@ -1,20 +1,930 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Example</title>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Olivia Leach | Portfolio</title>
+		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
+		<meta name="author" content="htmlcoder.me">
 
-      <script src="vendor.bundle.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="bundle.js" type="text/javascript" charset="utf-8" defer></script>
-    </head>
-    <body class="container-fluid">
-      <h1>Example</h1>
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.</p>
-    </body>
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
+		<!-- Bootstrap core CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+		<!-- Font Awesome CSS -->
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+		<!-- Plugins -->
+		<link href="css/animations.css" rel="stylesheet">
+
+		<!-- Worthy core CSS file -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- Custom css -->
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start -->
+		<!-- ================ -->
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+
+						<!-- header-left start -->
+						<!-- ================ -->
+						<div class="header-left clearfix">
+
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<a href="#banner"><img id="logo" src="assets/img/Logo.png" alt="Olivia"></a>
+							</div>
+
+							<!-- name-and-slogan -->
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name"><a href="#banner"></a></div>
+							</div>
+
+						</div>
+						<!-- header-left end -->
+
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right clearfix">
+
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li class="active"><a href="#banner">Home</a></li>
+												<li><a href="#about">About</a></li>
+												<li><a href="#services">Skills</a></li>
+												<li><a href="#portfolio">Portfolio</a></li>
+												<li><a href="#contact">Contact</a></li>
+												<li><a href="#">Resume</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- banner start -->
+		<!-- ================ -->
+		<div id="banner" class="banner">
+			<div class="banner-image"></div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+							<!--<h1 class="text-center">Olivia I. M. Leach</h1>
+							<h2 class="text-center"><span>Full Stack Web & GIS Developer</span></h2>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 id="about" class="title text-center"><span>Olivia Leach</span>, MPH</h1>
+						<p class="lead text-center">Full Stack Web & GIS Developer</p>
+						<div class="space"></div>
+						<div class="row">
+							<div class="col-md-1"></div>
+							<div class="col-md-6">
+								<img src="assets/img/circleHeadsSquare.png" alt="">
+								<div class="space"></div>
+							</div>
+							<div class="col-md-4">
+								<p>I was first drawn to code as a way to interact with and analyze data to solve real-world challenges. I am particularly fond of geospatial data, believing that place plays an integral role in determining who we are.</p>
+								<p>I am excited to leverage my diverse backgrounds in engineering, public health, and web development by positioning myself at the intersection of health and tech—ultimately helping to bridge the innovation gap between these two fields.</p>
+								<p>When not coding, I love maps, knitting, and being outdoors with my dog!</p>
+							</div>
+							<div class="col-md-1"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section translucent-bg bg-image-1 blue">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h1 id="services"  class="text-center title">Skills</h1>
+				<p class="lead text-center">My skillset includes both front and back-end frameworks and languages.</p>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-sm-3"></div>
+					<div class="col-sm-3">
+						<div class="media">
+							<div class="media-left">
+								<i class="devicon-javascript-plain tech-icon"></i>
+							</div>
+							<div class="media-body text-left">
+								<h4 class="media-heading">JavaScript</h4>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="devicon-html5-plain tech-icon"></i>
+							</div>
+							<div class="media-body text-left">
+								<h4 class="media-heading">HTML 5</h4>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="devicon-css3-plain tech-icon"></i>
+							</div>
+							<div class="media-body text-left">
+								<h4 class="media-heading">CSS3</h4>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="devicon-jquery-plain tech-icon"></i>
+							</div>
+							<div class="media-body text-left">
+								<h4 class="media-heading">jQuery</h4>
+							</div>
+						</div>
+					</div>
+					<div class="space visible-xs"></div>
+					<div class="col-sm-6">
+						<div class="media">
+							<div class="media-left">
+								<i class="devicon-ruby-plain tech-icon"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Ruby</h4>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="devicon-rails-plain tech-icon"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Rails</h4>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="devicon-mongodb-plain tech-icon"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">MongoDB</h4>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="devicon-postgresql-plain tech-icon"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">PostgresSQL</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section">
+			<div class="container">
+				<h1 class="text-center title" id="portfolio">Portfolio</h1>
+				<div class="separator"></div>
+				<p class="lead text-center"></p>
+				<br>
+				<div class="row object-non-visible" data-animation-effect="fadeIn">
+					<div class="col-md-12">
+
+						<!-- isotope filters start -->
+						<div class="filters text-center">
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#" data-filter="*">All</a></li>
+								<li><a href="#" data-filter=".web-development">Web development</a></li>
+								<li><a href="#" data-filter=".gis-work">GIS work</a></li>
+								<!--<li><a href="#" data-filter=".site-building">Data viz</a></li>-->
+							</ul>
+						</div>
+						<!-- isotope filters end -->
+
+						<!-- portfolio items start -->
+						<div class="isotope-container row grid-space-20">
+							<div class="col-sm-6 col-md-4 isotope-item web-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="assets/img/portfolio_whereoke.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-1">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Development</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Whereoke</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-1-label">Whereoke</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Whereoke uses the Google Maps and Google Streetview image APIs to geospatially display Karaoke data based on the day of the week. Users can use CRUD requests to interact with the data, which is seeded on the back end in a PostgresSQL database.</p>
+														<p>Technologies used:</p>
+														<div class="row">
+															<div class="col-md-6">
+																<ul>
+																	<li>JavaScript</li>
+																	<li>HTML 5</li>
+																	<li>SCSS</li>
+																	<li>Bootstrap</li>
+																</ul>
+															</div>
+															<div class="col-md-6">
+																<ul>
+																<li>Handlebars</li>
+																<li>Ruby on Rails</li>
+																<li>PostgresSQL</li>
+																<li>ActiveRecord</li>
+															</ul>
+														</div>
+													</div>
+													<p>Github: <a href="#">Front End</a>, <a href="#">Back End</a></p>
+													<p><a href="#">Live Website</a></p>
+													</div>
+													<div class="col-md-6">
+														<img src="assets/img/portfolio_whereoke.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-4 isotope-item web-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="assets/img/portfolio_tictactoe.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-3">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Development</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">TicTacToe</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-3-label">Tic Tac Toe</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Tic Tac Toe is a simple game play app that interacts with an API to save user log in and game play data.</p>
+														<p>Technologies used:</p>
+														<div class="row">
+															<div class="col-md-6">
+																<ul>
+																	<li>JavaScript</li>
+																	<li>HTML 5</li>
+																	<li>SCSS</li>
+																</ul>
+															</div>
+															<div class="col-md-6">
+																<ul>
+																	<li>Bootstrap</li>
+																	<li>AJAX</li>
+																</ul>
+															</div>
+														</div>
+													<p><a href="#">Github</a></p>
+													<p><a href="#">Live Website</a></p>
+													</div>
+													<div class="col-md-6">
+														<img src="assets/img/portfolio_tictactoe.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-4 isotope-item web-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-4.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-4">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Development</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-4" tabindex="-1" role="dialog" aria-labelledby="project-4-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-4-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-4.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-4 isotope-item web-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-8.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-5">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Development</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-5-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-8.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-4 isotope-item gis-work">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-6.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-6">
+											<i class="fa fa-search-plus"></i>
+											<span>GIS Work</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-6-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-6.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-4 isotope-item gis-work">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-7.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-7">
+											<i class="fa fa-search-plus"></i>
+											<span>GIS Work</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-7">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-7" tabindex="-1" role="dialog" aria-labelledby="project-7-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-7-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-7.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-4 isotope-item web-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-4.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-4">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Development</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-4" tabindex="-1" role="dialog" aria-labelledby="project-4-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-4-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-4.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-4 isotope-item gis-work">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-8.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-8">
+											<i class="fa fa-search-plus"></i>
+											<span>GIS Work</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-8" tabindex="-1" role="dialog" aria-labelledby="project-8-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-8-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-8.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-4 isotope-item gis-work">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-9.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-9">
+											<i class="fa fa-search-plus"></i>
+											<span>GIS Work</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-9">Project Title</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-9" tabindex="-1" role="dialog" aria-labelledby="project-9-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-9-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-9.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+						</div>
+						<!-- portfolio items end -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+
+		<div id="map"></div>
+
+		<!-- footer start -->
+		<!-- ================ -->
+		<footer id="footer">
+
+			<!-- .footer start -->
+			<!-- ================ -->
+			<div class="footer section">
+				<div class="container">
+					<h1 class="title text-center" id="contact"><span>Get in touch!</span></h1>
+					<div class="space"></div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="footer-content">
+								<p class="large">I'm available for freelance work and would love to hear from you.</p>
+								<ul class="list-icons">
+									<li><i class="fa fa-map-marker pr-10"></i> Boston, MA</li>
+									<li><i class="fa fa-phone pr-10"></i> 203.807.2808</li>
+									<li><i class="fa fa-envelope-o pr-10"></i> olivia.i.m.leach@gmail.com</li>
+								</ul>
+								<ul class="social-links">
+									<li class="facebook"><a target="_blank" href="https://github.com/olivia-leach/"><i class="fa fa-github"></i></a></li>
+									<li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/olivialeach"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="footer-content">
+								<form role="form" id="footer-form">
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="name2">Name</label>
+										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
+										<i class="fa fa-user form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="email2">Email address</label>
+										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
+										<i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="message2">Message</label>
+										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
+										<i class="fa fa-pencil form-control-feedback"></i>
+									</div>
+									<input type="submit" value="Send" class="btn btn-default">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .footer end -->
+			<!-- .subfooter start -->
+			<!-- ================ -->
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2016 Olivia Leach</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+		<!-- Jquery and Bootstap core js files -->
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Modernizr javascript -->
+		<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+		<!-- Isotope javascript -->
+		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+
+		<!-- Backstretch javascript -->
+		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+
+		<!-- Appear javascript -->
+		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+		<!-- Initialization of Plugins -->
+		<script type="text/javascript" src="js/template.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
+
+		<!-- Google Maps -->
+		<script>
+
+ 			//for google map
+ 			function initmap() {
+
+				  var styles = [
+				    {
+				        "featureType": "landscape",
+				        "stylers": [
+				            {
+				                "saturation": -100
+				            },
+				            {
+				                "lightness": 65
+				            },
+				            {
+				                "visibility": "on"
+				            }
+				        ]
+				    },
+				    {
+				        "featureType": "poi",
+				        "stylers": [
+				            {
+				                "saturation": -100
+				            },
+				            {
+				                "lightness": 51
+				            },
+				            {
+				                "visibility": "simplified"
+				            }
+				        ]
+				    },
+				    {
+				        "featureType": "road.highway",
+				        "stylers": [
+				            {
+				                "saturation": -100
+				            },
+				            {
+				                "visibility": "simplified"
+				            }
+				        ]
+				    },
+				    {
+				        "featureType": "road.arterial",
+				        "stylers": [
+				            {
+				                "saturation": -100
+				            },
+				            {
+				                "lightness": 30
+				            },
+				            {
+				                "visibility": "on"
+				            }
+				        ]
+				    },
+				    {
+				        "featureType": "road.local",
+				        "stylers": [
+				            {
+				                "saturation": -100
+				            },
+				            {
+				                "lightness": 40
+				            },
+				            {
+				                "visibility": "on"
+				            }
+				        ]
+				    },
+				    {
+				        "featureType": "transit",
+				        "stylers": [
+				            {
+				                "saturation": -100
+				            },
+				            {
+				                "visibility": "simplified"
+				            }
+				        ]
+				    },
+				    {
+				        "featureType": "administrative.province",
+				        "stylers": [
+				            {
+				                "visibility": "off"
+				            }
+				        ]
+				    },
+				    {
+				        "featureType": "water",
+				        "elementType": "labels",
+				        "stylers": [
+				            {
+				                "visibility": "on"
+				            },
+				            {
+				                "lightness": -25
+				            },
+				            {
+				                "saturation": -100
+				            }
+				        ]
+				    },
+				    {
+				        "featureType": "water",
+				        "elementType": "geometry",
+				        "stylers": [
+				            {
+				                "hue": "#ffff00"
+				            },
+				            {
+				                "lightness": -25
+				            },
+				            {
+				                "saturation": -97
+				            }
+				        ]
+				    }
+				];
+
+				  var styledMap = new google.maps.StyledMapType(styles,
+				    {name: "Styled Map"});
+
+				  var mapOptions = {
+				    zoom: 12,
+				    center: new google.maps.LatLng(42.360138, -71.058622),
+				    zoomControl:false,
+				    mapTypeControl: false,
+				    mapTypeControlOptions: {
+				      mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+				    }
+				  };
+				  var map = new google.maps.Map(document.getElementById('map'),
+				    mapOptions);
+
+				  var myLatLng = {lat: 42.360138, lng: -71.058622};
+
+				  var marker = new google.maps.Marker({
+				    position: myLatLng,
+				    map: map,
+				  });
+
+				  map.mapTypes.set('map_style', styledMap);
+				  map.setMapTypeId('map_style');
+				}
+
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAfPS4Lpb7efnKU6SNG11RGpv8bTNibp0&callback=initmap"
+				    async defer></script>
+
+	</body>
 </html>
