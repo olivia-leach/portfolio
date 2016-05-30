@@ -1,25 +1,265 @@
-.media-body p {
-  opacity: 1;
+body {
+  background-color: #212121;
+  color: white;
+  font-family: 'Open Sans';
+  font-weight: 300;
 }
 
-.tech-icon {
+.content-block .wrapper {
+  padding: 50px 0;
+}
+
+.content-block {
+  background-color: rgba(255,255,255,0.2);
+  text-align: left;
+  color: #212121;
+}
+
+#slide01, #slide02 {
+  height: 30vh;
+}
+
+.slide h1 {
+  text-align: center;
+}
+
+.slide .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  top: 0%;
+  height: 100%;
+}
+
+#cb02 .media {
+  margin: 50px 0px;
+}
+
+#cb02 i {
   font-size: 2em;
+}
+
+/* Images Overlay
+----------------------------------------------------------------------------- */
+.overlay-container {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.overlay {
+  font-family: 'Calibri';
+	position: absolute;
+  text-align: left;
+  padding: 35px;
+  color: #fff;
+	top: 0;
+	bottom: -1px;
+	left: 0;
+	right: -1px;
+	background-color: rgba(16, 21, 26, 0.9);
+	overflow: hidden;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transition: all linear 0.2s;
+	-moz-transition: all linear 0.2s;
+	-ms-transition: all linear 0.2s;
+	-o-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+}
+.overlay:hover {
+	text-decoration: none;
+}
+.overlay-container:hover .overlay {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+#cb03 img {
+  height: 60vh;
+}
+
+.overlay p {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+#tictacpic {
   position: relative;
-  top: -5px;
+  left: -170px;
 }
 
-.media-heading {
-  padding-left: 10px;
-  padding-bottom: 50px;
+#wanderpic {
+  position: relative;
+  left: -70px;
 }
 
-.footer {
-  /*background-color: black;
-  color: white;*/
+#slide01 .bcg, #slide02 .bcg {
+  height: 200%;
 }
 
-#map {
-  height: 50%;
-  margin-top: -5px;
-  margin-bottom: -20px;
+.slide#slide04, .slide#slide01, .slide#slide02 {
+  background-color: #000; }
+
+#intro {
+  background-color: #000;
+}
+
+#slide04 .wrapper {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  padding: 0;
+}
+
+#slide04 .row {
+  width: 90%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 200;
+  padding-bottom: 150px;
+  font-weight: 200;
+}
+
+li i {
+  font-size: 2em;
+}
+
+.slide#slide04 .button {
+  color: #fff;
+  border-color: #fff;
+  border-width: 1px;
+  font-weight: bold;
+  font-family: 'Calibri';
+  margin-top: -20px;
+  /*background-color: rgba(255,255,255,0.5);*/
+}
+
+.list-icons {
+  list-style-type: none;
+  line-height: 2;
+}
+
+.social {
+  font-size: 2em;
+  color: #fff;
+  margin-left: 40px;
+}
+
+#slide04 .bcg {
+  background-color: rgba(85, 172, 238, 0.7);
+}
+
+#slide04 h1 {
+  padding: 0;
+  margin 0 auto;
+}
+
+footer {
+  padding: 30px 0;
+}
+
+.pr-10 {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.social-icons {
+  margin-top: 50px;
+}
+
+#cb01 .wrapper {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#slide04 {
+  font-weight: 200;
+}
+
+form i {
+  color: rgb(105, 105, 105);
+}
+
+li {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+/*#intro .header-container {
+  height: 100vh;
+}*/
+
+.intro-text {
+  /*text-align: left;*/
+}
+
+.header-container .wrapper {
+  position: absolute;
+  top: 90%;
+  /*lef t: 45%;*/
+}
+
+#intro h1 {
+  font-family: 'Raleway';
+  font-size: 4.5em;
+  font-weight: 300;
+  opacity: .9;
+}
+
+#intro p {
+  margin-left: 10px;
+  font-size: 2em;
+  font-stretch: extra-expanded;
+}
+
+.slide h1 {
+  font-family: 'Raleway';
+  font-size: 4em;
+}
+
+#cb01 p {
+  font-size: 1.3em;
+}
+
+#intro p {
+  font-family: 'Raleway';
+  font-weight: 300;
+}
+
+#cb03 p {
+  font-family: 'Open Sans';
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+#cb03 ul {
+  font-family: 'Open Sans';
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+#cb03 h4 {
+  font-family: 'Raleway';
+}
+
+#logo {
+  height: 50px;
+  padding: 5px 0;
+}
+
+nav li a {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.preloader {
+  font-weight: 300;
 }
