@@ -475,7 +475,7 @@ nav li a {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      /*background-attachment: fixed;*/
+      background-position: fixed;
     }
 /*
     #slide01 .bcg, #slide02 .bcg, #slide04 .bcg {
