@@ -469,11 +469,13 @@ nav li a {
       z-index: 1000;
     }
 
+    .header-container {
+      background: url(../assets/img/maisy.jpg) no-repeat center center;
+      background-size: cover;
+    }
+
     .header-container .bcg {
-      /*background: url(../assets/img/maisy.jpg) no-repeat center center;*/
-      /*background-attachment: fixed;*/
-      position: absolute;
-      height: 100%;
+      visibility: none;
     }
 /*
     #slide01 .bcg, #slide02 .bcg, #slide04 .bcg {
