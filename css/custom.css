@@ -488,7 +488,7 @@ nav li a {
     .header-container .bcg {
       /*background: none;*/
       background-image: url(../assets/img/maisy.jpg);
-      positon: absolute;
+      position: absolute;
       top: 0;
       left: 0;
       height: 100%;
