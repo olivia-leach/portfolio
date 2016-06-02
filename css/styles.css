@@ -260,7 +260,7 @@ h1 {
     padding-top: 120px;
     z-index: 2;
     position: relative; }
-  /*.header-container .bcg {
+  .header-container .bcg {
     -webkit-transition: -webkit-transform 4s ease-out;
             transition: transform 4s ease-out;
     -webkit-transform: scale(1.01);
@@ -268,11 +268,11 @@ h1 {
             transform: scale(1.01);
     -webkit-transform-origin: top center;
         -ms-transform-origin: top center;
-            transform-origin: top center; }*/
-  /*.header-container.is-loaded .bcg {
+            transform-origin: top center; }
+  .header-container.is-loaded .bcg {
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
-            transform: scale(1); }*/
+            transform: scale(1); }
 
 .bcg {
   background: no-repeat center center;
@@ -397,7 +397,7 @@ p {
   height: 100vh; }
 
 .slide {
-  color: #ffffff;
+  /*color: #ffffff;*/
   position: relative; }
   .slide .wrapper {
     padding-top: 30px;
