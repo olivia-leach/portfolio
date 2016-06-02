@@ -364,7 +364,7 @@ nav li a {
     }
 
     .header-container .wrapper {
-      top: 100%;
+      top: 95%;
     }
 
     #cb01 .wrapper {
@@ -468,5 +468,21 @@ nav li a {
       position: relative;
       top: 100px;
       z-index: 1000;
+    }
+
+    .header-container .bcg {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: url(../assets/img/maisy.jpg) no-repeat center center scroll;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    #slide01 .bcg, #slide02 .bcg, #slide04 .bcg {
+      position: relative;
+      width: 100%;
+      background-size: cover;
+      background-attachment: fixed;
     }
 }
