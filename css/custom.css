@@ -485,6 +485,12 @@ nav li a {
       background-attachment: fixed;
     }*/
 
+    .header-container .bcg {
+      background: url(../assets/img/maisy.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
     .overlay-container {
       height: 100%;
       z-index: 200;
