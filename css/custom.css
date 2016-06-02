@@ -50,7 +50,7 @@ body {
 	overflow: hidden;
 }
 .overlay {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 	position: absolute;
   text-align: left;
   padding: 30px;
@@ -74,7 +74,7 @@ body {
 .overlay:hover {
 	text-decoration: none;
 }
-.overlay-container:hover .overlay {
+.overlay-container:hover .overlay, .overlay-container:focus .overlay, .overlay-contaienr:active .overlay {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
@@ -84,11 +84,11 @@ body {
 #cb03 img {
   height: 60vh;
 }
-
+/*
 .overlay p {
-  font-size: 15px;
+  font-size: 1px;
   font-weight: normal;
-}
+}*/
 
 #tictacpic {
   position: relative;
@@ -243,7 +243,7 @@ li {
 
 #cb03 p {
   font-family: 'Open Sans';
-  font-size: 0.9em;
+  font-size: 0.82em;
   font-weight: 300;
 }
 
@@ -470,12 +470,10 @@ nav li a {
     }
 
     .header-container .bcg {
-      background: url(../assets/img/maisy.jpg) no-repeat center center;
-      webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+      /*background: url(../assets/img/maisy.jpg) no-repeat center center;*/
       /*background-attachment: fixed;*/
+      position: absolute;
+      height: 100%;
     }
 /*
     #slide01 .bcg, #slide02 .bcg, #slide04 .bcg {
@@ -488,15 +486,5 @@ nav li a {
     .overlay-container {
       height: 100%;
       z-index: 200;
-    }
-
-    .overlay:focus {
-    	text-decoration: none;
-    }
-    .overlay-container:focus .overlay {
-    	opacity: 1;
-    	filter: alpha(opacity=100);
-    	-webkit-transform: scale(1);
-    	transform: scale(1);
     }
 }
