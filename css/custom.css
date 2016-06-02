@@ -470,12 +470,12 @@ nav li a {
     }
 
     .header-container .bcg {
-      background: url(../assets/img/maisy.jpg) no-repeat center center scroll;
+      background: url(../assets/img/maisy.jpg) no-repeat center center;
       webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      background-position: fixed;
+      background-attachment: fixed;
     }
 /*
     #slide01 .bcg, #slide02 .bcg, #slide04 .bcg {
