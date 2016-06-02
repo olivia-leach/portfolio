@@ -486,7 +486,13 @@ nav li a {
     }*/
 
     .header-container .bcg {
+      /*background: none;*/
       background-image: url(../assets/img/maisy.jpg);
+      positon: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
       /*background-size: cover;*/
       /*background-position: center;*/
     }
