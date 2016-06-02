@@ -470,11 +470,12 @@ nav li a {
     }
 
     .header-container .bcg {
-      background: url(../assets/img/maisy.jpg) no-repeat center center;
-      webkit-background-size: cover;
+      background: url(../assets/img/maisy.jpg) no-repeat center center scroll;
+      height: 100%;
+      /*webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
+      background-size: cover;*/
       background-attachment: fixed;
     }
 /*
@@ -488,7 +489,7 @@ nav li a {
     .overlay:focus {
     	text-decoration: none;
     }
-    .overlay-container:focus {
+    .overlay-container:focus .overlay {
     	opacity: 1;
     	filter: alpha(opacity=100);
     	-webkit-transform: scale(1);
