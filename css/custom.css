@@ -360,6 +360,7 @@ nav li a {
 
     #intro p {
       font-size: 1em;
+      font-weight: 400;
     }
 
     .header-container .wrapper {
@@ -369,6 +370,8 @@ nav li a {
     #cb01 .wrapper {
       width: 70%;
       padding: 30px 0;
+      font-size: 1em;
+      font-weight: 400;
     }
 
     .slide#slide02 .wrapper, .slide#slide01 .wrapper {
@@ -392,10 +395,12 @@ nav li a {
       padding: 30px 0 0 0;
       width: 70%;
       margin: 0 auto;
+      font-size: 1em;
+      font-weight: 400;
     }
 
     div.media-left {
-      font-size: 10px;
+      font-size: 8px;
     }
 
     .media-heading {
@@ -420,6 +425,7 @@ nav li a {
     #slide04 .button {
       position: relative;
       top: -50px;
+      font-weight: 600;
     }
 
     .overlay {
@@ -443,13 +449,14 @@ nav li a {
       margin: 0 auto;
       display: flex;
       justify-content: center;
+      z-index: 2;
     }
 
     .social {
       margin: 30px 30px;
     }
 
-    form {
+    .footer-content-low {
       visibility: hidden;
     }
 
@@ -460,5 +467,6 @@ nav li a {
     .footer-content {
       position: relative;
       top: 100px;
+      z-index: 1000;
     }
 }
