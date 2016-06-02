@@ -418,7 +418,7 @@ nav li a {
 
     #slide04 h1 {
       position: relative;
-      top: 100px;
+      top: 70px;
     }
 
     #slide04 .button {
@@ -470,13 +470,12 @@ nav li a {
     }
 
     .header-container .bcg {
-      background: url(../assets/img/maisy.jpg) no-repeat center center scroll;
-      height: 100%;
-      /*webkit-background-size: cover;
+      background: url(../assets/img/maisy.jpg) no-repeat center center;
+      webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;*/
-      background-attachment: fixed;
+      background-size: cover;
+      /*background-attachment: fixed;*/
     }
 /*
     #slide01 .bcg, #slide02 .bcg, #slide04 .bcg {
@@ -485,6 +484,11 @@ nav li a {
       background-size: cover;
       background-attachment: fixed;
     }*/
+
+    .overlay-container {
+      height: 100%;
+      z-index: 200;
+    }
 
     .overlay:focus {
     	text-decoration: none;
