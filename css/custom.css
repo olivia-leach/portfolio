@@ -472,6 +472,7 @@ nav li a {
     .header-container {
       background: url(../assets/img/maisy.jpg) no-repeat center center;
       background-size: cover;
+      position: fixed;
     }
 
     .header-container .bcg {
